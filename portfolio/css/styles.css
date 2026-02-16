@@ -1,0 +1,94 @@
+/* Connor Baldridge
+   styles.css
+   2/15/26 */
+
+/* CSS Reset */
+body, header, nav, main, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*Header H1 Styles*/
+header h1 {
+    text-align: center;
+	color: #000080;
+}
+
+/*Header H2 Styles*/
+header h2 {
+    text-align: center;
+	color: #000080;
+}
+
+
+/* Image Styles */
+img {
+	max-width: 100%;
+	display: block;
+	align-content: center;
+}
+
+/* Removing the Underlines from the Nav Links*/
+.nav-link {
+    text-decoration: none;
+}
+
+
+/* Font Family */
+* {
+	font-family: Cambria, "Times New Roman", serif;
+}
+
+
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+	text-align: center;
+}
+
+
+/* Main Styles */
+main p {
+	
+	color: #000080;
+	text-align: center;
+}
+
+/* Learning Log Paragraph */
+#learninglog p {
+    font-size: 1.2em;
+    color: #000080;
+}
+
+/* Learning Log List Items */
+#learninglog li {
+	color: #000080;
+	text-align: center;
+	list-style: none;
+}
+
+/* Removing underlines from Contact*/
+#contactinfo li {
+	
+    text-decoration: none;
+	color: #000080;	
+	list-style: none;
+	text-align: center;
+}
+
+/* Footer Paragraph */
+footer p {
+	
+	color: #000080;
+	text-align: center;
+}
+
+/* Footer Link */
+footer a {
+    text-decoration: none;
+	color: #000080;
+}
