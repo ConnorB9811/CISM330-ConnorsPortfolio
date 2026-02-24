@@ -3,7 +3,7 @@
    2/15/26 */
 
 /* CSS Reset */
-body, header, nav, main, footer {
+body, header, nav, main, footer, section, figure, figcaption {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,9 +24,9 @@ header h2 {
 
 /* Image Styles */
 img {
-	max-width: 100%;
-	display: block;
-	align-content: center;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Removing the Underlines from the Nav Links*/
@@ -42,12 +42,31 @@ img {
 
 
 
-/* Navigation Styles */
+/* Navigation Styles/CSS Grid */
 nav ul {
     list-style: none;
-    display: flex;
-    gap: 20px;
-	text-align: center;
+    display: grid; 
+    grid-template-columns: repeat(7, 1fr); 
+    gap: 10px;
+    padding: 15px 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/*Navigation Bar List Items Styling*/
+nav li {
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000080;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 
@@ -56,6 +75,15 @@ main p {
 	
 	color: #000080;
 	text-align: center;
+}
+
+#aboutme {
+    background-color: #ffffff; 
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* Learning Log Paragraph */
@@ -91,4 +119,17 @@ footer p {
 footer a {
     text-decoration: none;
 	color: #000080;
+}
+
+
+/*Figure and Figcaption Centering*/
+figure {
+    text-align: center;
+    margin: 10px auto;
+}
+
+figcaption {
+    font-style: italic;
+    color: #000080;
+    margin-top: 5px;
 }
