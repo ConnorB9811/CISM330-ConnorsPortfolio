@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Connor Baldridge
+	index.html
+	2/8/26 -->
+<html lang="en">
+<head>
+	<title>Index</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <h1>Connor Baldridge</h1>
+    <h2>System Support Technician</h2>
+    <figure>
+        <img src="images/connor.jpg" alt="Picture of Connor Baldridge">
+        <figcaption>Dedicated to excellence in IT support and network administration.</figcaption>
+    </figure>
+</header>
+<nav>
+
+    <ul>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="learninglog.html">Learning Log</a></li>
+        <li><a class="nav-link" href="skills.html">Skills</a></li>
+        <li><a class="nav-link" href="education.html">Education</a></li>
+        <li><a class="nav-link" href="completed.html">Completed Projects</a></li>
+        <li><a class="nav-link" href="contact.html">Contact Me</a></li>
+        <li><a class="nav-link" href="about.html">About Me</a></li>
+    </ul>
+
+</nav>
+	<!-- Put the Main content of the webpage in main -->
+<main>
+    <section id="introduction">
+        <p>Hello! My name is Connor Baldridge, and this is my personal portfolio! In this personal portfolio, I will list my skills, my education, what I'm currently working on or learning, as well as any completed projects I have!</p>
+    </section>
+
+    <section id="guestbook">
+    <h3>Sign the Guestbook!</h3>
+    <p>If you enjoyed your visit to my portfolio, please leave a quick note!</p>
+    
+    <form action="#" method="post" id="visit-form">
+        <label for="visitor-name">Your Name:</label>
+        <input type="text" id="visitor-name" name="visitor-name" placeholder="Enter your name" required>
+
+        <label for="visitor-email">Your Email (Optional):</label>
+        <input type="email" id="visitor-email" name="visitor-email" placeholder="email@example.com">
+
+        <label for="visitor-type">How do you know me?</label>
+        <select id="visitor-type" name="visitor-type">
+            <option value="friend">Friend/Family</option>
+            <option value="colleague">Colleague from Honorbuilt</option>
+            <option value="classmate">Point University Classmate</option>
+            <option value="recruiter">Recruiter/Employer</option>
+            <option value="other">Just Browsing!</option>
+        </select>
+
+        <label for="visitor-message">Leave a playful note:</label>
+        <textarea id="visitor-message" name="visitor-message" rows="4" placeholder="Say hello!"></textarea>
+
+        <button type="submit" id="submit-btn">Sign the Book</button>
+    </form>
+</section>
+</main>
+<footer>
+<p>Made in 2026 by Connor Baldridge. Contact me at <a href="mailto:cbaldridge0124162@students.point.edu" target="_blank">	cbaldridge0124162@students.point.edu</a></p>
+</footer>
+</body>
+</html>
